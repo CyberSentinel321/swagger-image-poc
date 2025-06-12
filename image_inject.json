@@ -1,17 +1,17 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "Image Injection PoC",
-    "description": "<img src='https://i.imgur.com/ZI6Xz5W.png' width='300' alt='Pwned Image'>"
+    "title": "🛡️ Swagger PoC - Image Injection",
+    "description": "<h3>Proof of Concept</h3><img src='https://raw.githubusercontent.com/CyberSentinel321/swagger-image-poc/main/html_image_injectioin.jpg' width='300' alt='Pwned Image'><br><b>HTML Injection into Swagger UI</b>"
   },
   "paths": {
     "/poc": {
       "get": {
-        "summary": "Image Injection Test",
-        "description": "Below is the injected image:<br><img src='https://i.imgur.com/ZI6Xz5W.png' width='300'>",
+        "summary": "🖼️ Image Injection Endpoint",
+        "description": "Below is the injected image:<br><img src='https://raw.githubusercontent.com/CyberSentinel321/swagger-image-poc/main/html_image_injectioin.jpg' width='300'><br><i>This content is rendered using unsanitized HTML</i>",
         "responses": {
           "200": {
-            "description": "OK"
+            "description": "✅ Image Injection Rendered Successfully"
           }
         }
       }
