@@ -1,0 +1,20 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Image Injection PoC",
+    "description": "<img src='https://i.imgur.com/ZI6Xz5W.png' width='300' alt='Pwned Image'>"
+  },
+  "paths": {
+    "/poc": {
+      "get": {
+        "summary": "Image Injection Test",
+        "description": "Below is the injected image:<br><img src='https://i.imgur.com/ZI6Xz5W.png' width='300'>",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  }
+}
